@@ -18,6 +18,7 @@ Marketplace de **personas** (rôles spécialisés) pour [Claude Code](https://cl
 | **researcher** | Recherche & analyse | analyze, search | explore-docs, gemini-researcher, websearch |
 | **reviewer** | Revue de code & qualité | challenge, elegant-objects, phpstan, review | 6 agents |
 | **tester** | Tests & TDD | ui-test | test-analyzer, tester |
+| **twig** | Twig/Symfony UX | make-component | - |
 
 ## Installation
 

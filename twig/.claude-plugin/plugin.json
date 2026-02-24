@@ -1,0 +1,14 @@
+{
+  "name": "twig",
+  "version": "1.0.0",
+  "description": "Skills Twig/Symfony UX : génération de Twig Components, templates et bonnes pratiques",
+  "author": {
+    "name": "Aurélien Tournayre",
+    "email": "aurelien.tournayre@gmail.com"
+  },
+  "homepage": "https://github.com/atournayre/claude-personas",
+  "repository": "https://github.com/atournayre/claude-personas",
+  "license": "MIT",
+  "keywords": ["twig", "symfony", "component", "ux", "template", "frontend"],
+  "category": "framework"
+}

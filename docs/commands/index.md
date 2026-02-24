@@ -4,7 +4,7 @@ title: Index des Skills
 
 # Index des Skills
 
-64 skills disponibles dans le marketplace.
+65 skills disponibles dans le marketplace.
 
 **Note** : Les skills sont invoquées via slash commands (ex: `/git:commit`, `/dev:feature`). ⚠️ = plugin déprécié.
 
@@ -74,3 +74,4 @@ title: Index des Skills
 | `/reviewer:phpstan` | [reviewer](/plugins/reviewer) | Résoudre automatiquement les erreurs PHPStan niveau 9 — boucle jusqu'à zéro erreur |
 | `/reviewer:review` | [reviewer](/plugins/reviewer) | Review qualité complète — PHPStan + Elegant Objects + code review + adversarial |
 | `/tester:ui-test` | [tester](/plugins/tester) | > |
+| `/twig:make-component` | [twig](/plugins/twig) | Génère un Twig Component Symfony UX (classe PHP + template Twig) |

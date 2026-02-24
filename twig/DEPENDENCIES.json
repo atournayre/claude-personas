@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "critical": {},
+  "optional": {
+    "php": {
+      "version": "*",
+      "description": "Pour la génération d'entités associées aux composants"
+    }
+  },
+  "packages": {
+    "symfony/ux-twig-component": {
+      "version": "^2.13",
+      "description": "Symfony UX Twig Component bundle"
+    },
+    "composer": {
+      "version": "*",
+      "description": "Gestionnaire de paquets PHP"
+    }
+  }
+}
