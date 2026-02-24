@@ -1,14 +1,13 @@
 {
-  "name": "claude-marketplace-docs",
+  "name": "claude-personas-docs",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "npm run generate && vitepress dev",
     "build": "npm run generate && vitepress build",
     "preview": "vitepress preview",
-    "generate": "npm run generate:docs && npm run generate:usecases",
-    "generate:docs": "tsx ../scripts/generate-docs.ts",
-    "generate:usecases": "tsx scripts/generate-usecases-index.ts"
+    "generate": "npm run generate:docs",
+    "generate:docs": "tsx ../scripts/generate-docs.ts"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
