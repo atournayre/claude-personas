@@ -1,11 +1,4 @@
----
-title: "researcher"
-description: "Recherche et analyse via Gemini (Google Search) et agents web spécialisés"
-version: "1.1.0"
----
-
-# researcher <Badge type="info" text="v1.1.0" />
-
+# researcher
 
 Recherche et analyse via Gemini (Google Search) et agents web spécialisés.
 

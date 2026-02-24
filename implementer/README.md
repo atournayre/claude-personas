@@ -1,11 +1,4 @@
----
-title: "implementer"
-description: "Skills d'implémentation de code  - code, debug, refactoring, correction d'issues et PR"
-version: "1.1.0"
----
-
-# implementer <Badge type="info" text="v1.1.0" />
-
+# implementer
 
 Skills d'implémentation de code : code, debug, refactoring, correction d'issues et PR.
 

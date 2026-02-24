@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "plugins": [
+    {
+      "name": "analyst",
+      "source": "./analyst",
+      "description": "Analyse de besoin, exploration de codebase et clarification avant développement",
+      "category": "development",
+      "version": "1.1.0"
+    },
+    {
+      "name": "architect",
+      "source": "./architect",
+      "description": "Design architectural, planification d'implémentation et documentation des décisions techniques",
+      "category": "development",
+      "version": "1.1.0"
+    },
+    {
+      "name": "devops",
+      "source": "./devops",
+      "description": "Opérations DevOps Git : branches, commits, worktrees, PR, CI, releases",
+      "category": "git-workflow",
+      "version": "1.1.0"
+    },
+    {
+      "name": "documenter",
+      "source": "./documenter",
+      "description": "Documentation : RTFM, génération docs, chargement frameworks, scraping agents",
+      "category": "documentation",
+      "version": "1.1.0"
+    },
+    {
+      "name": "implementer",
+      "source": "./implementer",
+      "description": "Skills d'implémentation de code : code, debug, refactoring, correction d'issues et PR",
+      "category": "development",
+      "version": "1.1.0"
+    },
+    {
+      "name": "infra",
+      "source": "./infra",
+      "description": "Infrastructure Claude Code : gestion mémoire, création de skills et agents, alias, versioning des plugins",
+      "category": "tools",
+      "version": "1.1.0"
+    },
+    {
+      "name": "orchestrator",
+      "source": "./orchestrator",
+      "description": "Orchestrateur de workflows de développement : feature complète, mode automatique, implémentation parallèle, équipes d'agents",
+      "category": "development",
+      "version": "1.1.0"
+    },
+    {
+      "name": "php",
+      "source": "./php",
+      "description": "Skills PHP/Symfony orientés Elegant Objects : génération d'entités, collections, contrats, factories, stories",
+      "category": "framework",
+      "version": "1.1.0"
+    },
+    {
+      "name": "researcher",
+      "source": "./researcher",
+      "description": "Recherche et analyse via Gemini (Google Search) et agents web spécialisés",
+      "category": "ai",
+      "version": "1.1.0"
+    },
+    {
+      "name": "reviewer",
+      "source": "./reviewer",
+      "description": "Skills de review de code : qualité, PHPStan, Elegant Objects, challenge adversarial",
+      "category": "development",
+      "version": "1.1.0"
+    },
+    {
+      "name": "tester",
+      "source": "./tester",
+      "description": "Tests automatisés : UI Chrome, tests PHPUnit TDD, analyse de couverture",
+      "category": "development",
+      "version": "1.1.0"
+    }
+  ]
+}

@@ -1,11 +1,4 @@
----
-title: "architect"
-description: "Design architectural, planification d'implémentation et documentation des décisions techniques"
-version: "1.1.0"
----
-
-# architect <Badge type="info" text="v1.1.0" />
-
+# architect
 
 Design architectural, planification d'implémentation et documentation des décisions techniques.
 

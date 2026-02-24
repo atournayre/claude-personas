@@ -1,11 +1,4 @@
----
-title: "orchestrator"
-description: "Orchestrateur de workflows de développement  - feature complète, mode automatique, implémentation parallèle, équipes d'agents"
-version: "1.1.0"
----
-
-# orchestrator <Badge type="info" text="v1.1.0" />
-
+# orchestrator
 
 Orchestrateur de workflows de développement : feature complète, mode automatique, implémentation parallèle, équipes d'agents.
 

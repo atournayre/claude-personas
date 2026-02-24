@@ -1,11 +1,4 @@
----
-title: "tester"
-description: "Tests automatisés  - UI Chrome, tests PHPUnit TDD, analyse de couverture"
-version: "1.1.0"
----
-
-# tester <Badge type="info" text="v1.1.0" />
-
+# tester
 
 Tests automatisés : UI Chrome, tests PHPUnit TDD, analyse de couverture.
 

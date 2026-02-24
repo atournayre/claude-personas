@@ -1,11 +1,4 @@
----
-title: "analyst"
-description: "Analyse de besoin, exploration de codebase et clarification avant développement"
-version: "1.1.0"
----
-
-# analyst <Badge type="info" text="v1.1.0" />
-
+# analyst
 
 Analyse de besoin, exploration de codebase et clarification avant développement.
 

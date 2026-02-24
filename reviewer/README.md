@@ -1,11 +1,4 @@
----
-title: "reviewer"
-description: "Skills de review de code  - qualité, PHPStan, Elegant Objects, challenge adversarial"
-version: "1.1.0"
----
-
-# reviewer <Badge type="info" text="v1.1.0" />
-
+# reviewer
 
 Skills de review de code : qualité, PHPStan, Elegant Objects, challenge adversarial.
 

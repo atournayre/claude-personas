@@ -1,11 +1,4 @@
----
-title: "documenter"
-description: "Documentation  - RTFM, génération docs, chargement frameworks, scraping agents"
-version: "1.1.0"
----
-
-# documenter <Badge type="info" text="v1.1.0" />
-
+# documenter
 
 Documentation : RTFM, génération docs, chargement frameworks, scraping agents.
 

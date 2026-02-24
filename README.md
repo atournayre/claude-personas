@@ -44,14 +44,6 @@ persona-name/
     agent-name.md
 ```
 
-## Différence avec le marketplace
-
-| [claude-marketplace](https://github.com/atournayre/claude-marketplace) | claude-personas |
-|-------------------------------------------------------------------------|-----------------|
-| Plugins **outils** (git, gemini, qa…) | Plugins **rôles** (analyst, reviewer…) |
-| Invoqués ponctuellement | Adoptent un point de vue complet |
-| `/git:commit`, `/gemini:analyze` | `reviewer` qui analyse tout le code |
-
 ## Dépendances optionnelles
 
 Certains personas utilisent optionnellement des plugins du marketplace :

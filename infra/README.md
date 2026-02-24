@@ -1,11 +1,4 @@
----
-title: "infra"
-description: "Infrastructure Claude Code  - gestion mémoire (CLAUDE.md/.claude/rules), création de skills et agents, alias, versioning des plugins, initialisation marketplace, correction grammaticale"
-version: "1.1.0"
----
-
-# infra <Badge type="info" text="v1.1.0" />
-
+# infra
 
 Infrastructure Claude Code : gestion mémoire (CLAUDE.md/.claude/rules), création de skills et agents, alias, versioning des plugins, initialisation marketplace, correction grammaticale.
 

@@ -1,11 +1,4 @@
----
-title: "php"
-description: "Skills PHP/Symfony orientés Elegant Objects  - génération d'entités, collections, contrats, factories, stories"
-version: "1.1.0"
----
-
-# php <Badge type="info" text="v1.1.0" />
-
+# php
 
 Skills PHP/Symfony orientés Elegant Objects : génération d'entités, collections, contrats, factories, stories.
 
