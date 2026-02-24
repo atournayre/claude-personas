@@ -84,7 +84,7 @@ docs/
 
 Le site est déployé automatiquement sur GitHub Pages via GitHub Actions lors d'un push sur `main`.
 
-URL : `https://atournayre.github.io/claude-marketplace`
+URL : `https://atournayre.github.io/claude-personas`
 
 ## 📝 Maintenance
 

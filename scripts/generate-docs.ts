@@ -429,7 +429,7 @@ import { data as plugins } from '../.vitepress/data/plugins.data'
 
 <div v-for="plugin in plugins" :key="plugin.name" class="plugin-card">
   <h2>
-    <a :href="'/claude-marketplace/plugins/' + plugin.slug">{{ plugin.name }}</a>
+    <a :href="'/claude-personas/plugins/' + plugin.slug">{{ plugin.name }}</a>
     <Badge type="info" :text="'v' + plugin.version" />
     <Badge v-if="plugin.deprecated" type="danger" text="Déprécié" />
   </h2>

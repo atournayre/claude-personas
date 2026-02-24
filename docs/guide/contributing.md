@@ -140,7 +140,7 @@ Cela va créer automatiquement :
 
 ```bash
 npm run dev
-# Ouvrir http://localhost:5173/claude-marketplace/
+# Ouvrir http://localhost:5173/claude-personas/
 ```
 
 Vérifie :

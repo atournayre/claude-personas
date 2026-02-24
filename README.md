@@ -2,7 +2,6 @@
 
 Marketplace de **personas** (rôles spécialisés) pour [Claude Code](https://claude.ai/code).
 
-> Un persona adopte un rôle complet dans le processus de développement, là où un [plugin outil](https://github.com/atournayre/claude-marketplace) exécute une tâche spécifique.
 
 ## Personas disponibles
 

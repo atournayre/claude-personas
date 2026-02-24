@@ -6,95 +6,49 @@ title: Démarrage Rapide
 
 ## Prérequis
 
-- Claude Code installé
+- [Claude Code](https://claude.ai/code) installé
 - Git configuré
-- Node.js (pour certains plugins)
 
-## Installation du Marketplace
-
-```bash
-/plugin marketplace add atournayre/claude-marketplace
-```
-
-Cette commande ajoute le marketplace à votre configuration Claude Code.
-
-## Installer un Plugin
-
-### Installation individuelle
+## Installation
 
 ```bash
-/plugin install git@atournayre
-/plugin install dev@atournayre
-/plugin install symfony@atournayre
+# 1. Cloner le marketplace
+git clone https://github.com/atournayre/claude-personas.git
+
+# 2. Copier un ou plusieurs personas dans ta configuration Claude Code
+cp -r claude-personas/analyst ~/.claude/plugins/analyst
+cp -r claude-personas/reviewer ~/.claude/plugins/reviewer
 ```
 
-### Installation par batch
+## Utilisation
 
-Pour installer plusieurs plugins d'un coup :
+Une fois le persona installé, ses skills sont disponibles via les slash commands :
 
-```bash
-/plugin install git@atournayre dev@atournayre symfony@atournayre
+```
+/analyst:discover
+/analyst:explore
+/reviewer:review
+/reviewer:elegant-objects
 ```
 
-## Vérifier l'Installation
+## Choisir ses personas
 
-Après installation, vérifie que les commandes sont disponibles :
+| Persona | Pour quoi faire |
+|---------|----------------|
+| **analyst** | Analyser un besoin, explorer un codebase |
+| **architect** | Concevoir une architecture, rédiger un ADR |
+| **devops** | Gérer branches, commits, PRs |
+| **documenter** | Générer et charger de la documentation |
+| **implementer** | Écrire du code, corriger des bugs |
+| **infra** | Gérer la configuration Claude Code |
+| **orchestrator** | Orchestrer un workflow de feature complète |
+| **php** | Générer du code PHP/Symfony |
+| **researcher** | Rechercher via Gemini/Google |
+| **reviewer** | Reviewer du code, vérifier la qualité |
+| **tester** | Écrire et exécuter des tests |
 
-```bash
-/git:branch
-# La commande doit être reconnue
-```
+## Prochaines étapes
 
-## Configuration
-
-Les plugins sont configurés via `.claude/settings.json` dans ton projet.
-
-Exemple de configuration :
-
-```json
-{
-  "plugins": {
-    "git": {
-      "enabled": true
-    },
-    "dev": {
-      "enabled": true,
-      "workflow": {
-        "autoPhases": true
-      }
-    }
-  }
-}
-```
-
-## Dépendances entre Plugins
-
-Certains plugins recommandent d'autres plugins :
-
-- **dev** recommande **feature-dev** pour le workflow complet
-- **framework** s'intègre avec **symfony**
-- **qa** complète **dev** pour la qualité du code
-
-## Prochaines Étapes
-
-- [Voir tous les plugins](/plugins/) - Explore les 16 plugins disponibles
-- [Index des commandes](/commands/) - Liste des 69 slash commands
-- [Architecture](/guide/workaround-slash-commands) - Comprendre le système de commandes
-
-## Aide et Support
-
-Si tu rencontres un problème :
-
-1. Vérifie la documentation du plugin spécifique
-2. Consulte les issues GitHub
-3. Ouvre une nouvelle issue si nécessaire
-
-## Mise à Jour
-
-Pour mettre à jour les plugins :
-
-```bash
-/plugin update git@atournayre
-# ou
-/plugin update --all
-```
+- [Installation détaillée](/guide/installation)
+- [Voir tous les personas](/plugins/)
+- [Index des commandes](/commands/)
