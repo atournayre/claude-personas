@@ -25,7 +25,7 @@ Lorsque vous êtes invoqué avec une URL Meilisearch, vous devez :
    - Format: `docs/meilisearch/{chemin-complet-sans-extension}.md`
    - Exemples :
      - `https://www.meilisearch.com/docs/learn/getting_started/what_is_meilisearch.md` → `docs/meilisearch/learn-getting_started-what_is_meilisearch.md`
-     - `https://www.meilisearch.com/docs/reference/api/overview.md` → `docs/meilisearch/reference-api-overview.md`
+     - `https://www.meilisearch.com/docs/reference/api/overview` → `docs/meilisearch/reference-api-overview.md`
 
 3. **Extraire le contenu**
    - **IMPORTANT** : Les URLs pointent vers des fichiers `.md` bruts hébergés sur le site

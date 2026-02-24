@@ -24,8 +24,8 @@ Lorsque vous êtes invoqué avec une URL Symfony, vous devez :
    - Format: `docs/symfony/{nom-du-sujet}.md`
    - Exemples :
      - `https://symfony.com/doc/current/routing.html` → `docs/symfony/routing.md`
-     - `https://symfony.com/doc/current/security/authentication.html` → `docs/symfony/security-authentication.md`
-     - `https://symfony.com/doc/current/doctrine/migrations.html` → `docs/symfony/doctrine-migrations.md`
+     - `https://symfony.com/doc/current/security.html` → `docs/symfony/security.md`
+     - `https://symfony.com/doc/current/doctrine.html` → `docs/symfony/doctrine.md`
 
 3. **Extraire le contenu**
    - Utiliser WebFetch avec ce prompt spécialisé pour Symfony :

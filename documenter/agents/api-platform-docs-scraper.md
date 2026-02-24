@@ -25,7 +25,7 @@ Lorsque vous êtes invoqué avec une URL API Platform, vous devez :
    - Exemples :
      - `https://api-platform.com/docs/symfony/security/` → `docs/api-platform/symfony-security.md`
      - `https://api-platform.com/docs/core/operations/` → `docs/api-platform/core-operations.md`
-     - `https://api-platform.com/docs/guides/test-your-api/` → `docs/api-platform/guides-test-your-api.md`
+     - `https://api-platform.com/docs/symfony/testing/` → `docs/api-platform/symfony-testing.md`
 
 3. **Extraire le contenu**
    - Utiliser WebFetch avec ce prompt spécialisé pour API Platform :

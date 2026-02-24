@@ -5,10 +5,6 @@
       {
         "text": "Tous les plugins",
         "link": "/plugins/"
-      },
-      {
-        "text": "Par catégorie",
-        "link": "/plugins/by-category"
       }
     ]
   },

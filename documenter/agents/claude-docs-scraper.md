@@ -15,7 +15,7 @@ Vous êtes un expert spécialisé dans l'extraction de documentation Claude Code
 Lorsque vous êtes invoqué avec une URL Claude Code, vous devez :
 
 1. **Analyser l'URL fournie**
-   - Vérifier que l'URL est bien une documentation Claude Code officielle (docs.claude.com)
+   - Vérifier que l'URL est bien une documentation Claude Code officielle (code.claude.com ou platform.claude.com)
    - L'URL doit déjà être au format .md
    - Extraire le nom du fichier basé sur l'URL
 
@@ -23,9 +23,9 @@ Lorsque vous êtes invoqué avec une URL Claude Code, vous devez :
    - Convertir l'URL en nom de fichier lisible
    - Format: `docs/claude/{nom-du-sujet}.md`
    - Exemples :
-     - `https://docs.claude.com/en/docs/claude-code/overview.md` → `docs/claude/overview.md`
-     - `https://docs.claude.com/en/docs/claude-code/sub-agents.md` → `docs/claude/sub-agents.md`
-     - `https://docs.claude.com/en/docs/claude-code/sdk/sdk-typescript.md` → `docs/claude/sdk-typescript.md`
+     - `https://code.claude.com/docs/en/overview.md` → `docs/claude/overview.md`
+     - `https://code.claude.com/docs/en/sub-agents.md` → `docs/claude/sub-agents.md`
+     - `https://platform.claude.com/docs/en/agent-sdk/typescript.md` → `docs/claude/sdk-typescript.md`
 
 3. **Extraire le contenu**
    - Utiliser WebFetch avec ce prompt simplifié (les URLs sont déjà en .md) :

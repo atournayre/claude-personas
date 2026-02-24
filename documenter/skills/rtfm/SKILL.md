@@ -78,7 +78,7 @@ Cette commande ne modifie pas le codebase, elle lit uniquement la documentation 
 ```
 
 ## Examples
-- `/documenter:rtfm https://docs.anthropic.com/claude/reference` - Lit directement la documentation Claude
+- `/documenter:rtfm https://docs.anthropic.com/en/api/overview` - Lit directement la documentation Claude
 - `/documenter:rtfm symfony doctrine` - Recherche et lit la documentation Symfony Doctrine
 - `/documenter:rtfm php 8.3 new features` - Recherche les nouvelles fonctionnalités PHP 8.3
 
