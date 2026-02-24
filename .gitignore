@@ -1,0 +1,29 @@
+# Claude Code - Logs et data
+.claude/settings.local.json
+.claude/logs/
+.claude/data/
+.claude/sessions/
+.claude/cache/
+logs/
+.claude/notifications/queue.jsonl
+
+# Python cache (hooks)
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Secrets
+*.env
+credentials.json
+
+# Auto Claude data directory
+.auto-claude/
+
+# Plugins - dossiers .claude dans sous-dossiers (données locales, pas configuration)
+# Note: garde le .claude/ racine qui contient les commandes/skills du projet
+*/**/.claude/
+
+# Plugins - node_modules
+/mlvn/scripts/node_modules/

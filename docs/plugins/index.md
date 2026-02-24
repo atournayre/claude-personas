@@ -1,0 +1,27 @@
+---
+title: Tous les Plugins
+---
+
+# Tous les Plugins
+
+<script setup>
+import { data as plugins } from '../.vitepress/data/plugins.data'
+</script>
+
+<div v-for="plugin in plugins" :key="plugin.name" class="plugin-card">
+  <h2>
+    <a :href="'/claude-marketplace/plugins/' + plugin.slug">{{ plugin.name }}</a>
+    <Badge type="info" :text="'v' + plugin.version" />
+    <Badge v-if="plugin.deprecated" type="danger" text="Déprécié" />
+  </h2>
+  <p v-if="plugin.deprecated" class="deprecation-notice">⚠️ {{ plugin.deprecation_message }}</p>
+  <p>{{ plugin.description }}</p>
+  <div class="meta">
+    <Badge type="tip" :text="plugin.skillCount + ' skills'" />
+    <Badge v-if="plugin.agentCount > 0" type="tip" :text="plugin.agentCount + ' agents'" />
+    <Badge v-if="plugin.hookCount > 0" type="tip" :text="plugin.hookCount + ' hooks'" />
+    <span v-for="keyword in plugin.keywords.slice(0, 3)" :key="keyword">
+      <Badge type="warning" :text="keyword" />
+    </span>
+  </div>
+</div>
