@@ -7,6 +7,11 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+### Plugins Added
+- **twig v1.0.0** - Persona Twig/Symfony UX avec skill make-component
+  - `twig:make-component` — Génération de Twig Components (standard et anonymous)
+  - [twig/CHANGELOG.md](twig/CHANGELOG.md)
+
 ## [1.1.0] - 2025-01-01
 
 ### Plugins Updated

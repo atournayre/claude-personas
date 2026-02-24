@@ -55,6 +55,10 @@
       {
         "text": "Php",
         "link": "/plugins/php"
+      },
+      {
+        "text": "Twig",
+        "link": "/plugins/twig"
       }
     ]
   },
