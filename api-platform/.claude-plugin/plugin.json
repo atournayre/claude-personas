@@ -1,0 +1,14 @@
+{
+  "name": "api-platform",
+  "version": "1.0.0",
+  "description": "Expert API Platform : resources, providers, processors, filtres, DTOs, tests et audit de projets API Platform",
+  "author": {
+    "name": "Aurélien Tournayre",
+    "email": "aurelien.tournayre@gmail.com"
+  },
+  "homepage": "https://github.com/atournayre/claude-personas",
+  "repository": "https://github.com/atournayre/claude-personas",
+  "license": "MIT",
+  "keywords": ["api-platform", "symfony", "rest", "graphql", "openapi", "json-ld", "hydra"],
+  "category": "framework"
+}
