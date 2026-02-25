@@ -14,6 +14,13 @@ title: Index des Skills
 | `/analyst:discover` | [analyst](/plugins/analyst) | Comprendre le besoin avant développement - Phase 0 (supporte le mode automatique) |
 | `/analyst:explore` | [analyst](/plugins/analyst) | Explorer le codebase avec agents parallèles - Phase 1 (supporte le mode automatique) |
 | `/analyst:impact` | [analyst](/plugins/analyst) | Génère automatiquement deux rapports d'impact (métier et technique) pour une PR GitHub et les intègre dans la description |
+| `/api-platform:audit` | [api-platform](/plugins/api-platform) | Audite un projet API Platform existant et produit un rapport de bonnes pratiques, performances et sécurité |
+| `/api-platform:make-dto` | [api-platform](/plugins/api-platform) | Génère des DTOs (input/output) API Platform avec mapping vers les entités |
+| `/api-platform:make-filter` | [api-platform](/plugins/api-platform) | Génère des filtres API Platform (search, date, range, order, boolean, exists, custom) |
+| `/api-platform:make-processor` | [api-platform](/plugins/api-platform) | Génère un State Processor API Platform pour personnaliser la persistence des données |
+| `/api-platform:make-provider` | [api-platform](/plugins/api-platform) | Génère un State Provider API Platform pour personnaliser la récupération de données |
+| `/api-platform:make-resource` | [api-platform](/plugins/api-platform) | Génère une API Resource complète avec attribut #[ApiResource], opérations, groupes de sérialisation et configuration |
+| `/api-platform:make-test` | [api-platform](/plugins/api-platform) | Génère des tests fonctionnels API Platform (PHPUnit/ApiTestCase) pour une resource |
 | `/architect:adr` | [architect](/plugins/architect) | Génère un Architecture Decision Record (ADR) formaté et structuré |
 | `/architect:design` | [architect](/plugins/architect) | Designer des approches architecturales et choisir la meilleure - Phase 3 (supporte le mode automatique) |
 | `/architect:plan` | [architect](/plugins/architect) | Générer plan d'implémentation détaillé dans docs/specs/ - Phase 4 (supporte le mode automatique) |

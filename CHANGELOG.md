@@ -7,7 +7,18 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+## [2026.02.25] - 2026-02-25
+
 ### Plugins Added
+- **api-platform v1.0.0** - Expert API Platform : resources, providers, processors, filtres, DTOs, tests et audit
+  - `api-platform:make-resource` — Génération d'API Resource avec opérations et sérialisation
+  - `api-platform:make-filter` — Génération de filtres (search, order, date, range, custom)
+  - `api-platform:make-provider` — Génération de State Provider
+  - `api-platform:make-processor` — Génération de State Processor
+  - `api-platform:make-dto` — Génération de DTOs input/output
+  - `api-platform:make-test` — Génération de tests fonctionnels (ApiTestCase)
+  - `api-platform:audit` — Audit de bonnes pratiques et sécurité
+  - [api-platform/CHANGELOG.md](api-platform/CHANGELOG.md)
 - **symfony v1.0.0** - Expert Symfony couvrant le framework core et l'écosystème officiel (150+ bundles)
   - `symfony:console` — Génération de commandes console
   - `symfony:controller` — Génération de contrôleurs avec routing attributs

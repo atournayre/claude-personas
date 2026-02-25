@@ -7,6 +7,7 @@
 <!-- Coche les plugins impactés -->
 
 - [ ] analyst
+- [ ] api-platform
 - [ ] architect
 - [ ] devops
 - [ ] documenter

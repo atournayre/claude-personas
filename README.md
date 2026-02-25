@@ -8,6 +8,7 @@ Marketplace de **personas** (rôles spécialisés) pour [Claude Code](https://cl
 | Persona | Rôle | Skills | Agents |
 |---------|------|--------|--------|
 | **analyst** | Analyse, exploration, découverte | clarify, discover, explore, impact | analyst, designer, explore-codebase, gemini-analyzer |
+| **api-platform** | API REST/GraphQL, State Providers/Processors | make-resource, make-filter, make-provider, make-processor, make-dto, make-test, audit | api-expert, reviewer |
 | **architect** | Architecture, design, ADR | adr, design, plan, start | architect, challenger, deep-think |
 | **devops** | Git workflow, CI/CD | branch, cd-pr, commit, conflict, pr, release-notes… | - |
 | **documenter** | Documentation technique | claude-load, load, rtfm, summary, update… | 5 scrapers |

@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "critical": {},
+  "optional": {
+    "php": {
+      "version": "*",
+      "description": "Pour les conventions PHP/Symfony (entités, repositories)"
+    },
+    "tester": {
+      "version": "*",
+      "description": "Pour les stratégies de test avancées"
+    }
+  },
+  "packages": {
+    "composer": {
+      "version": "*",
+      "description": "Gestionnaire de paquets PHP"
+    }
+  }
+}
