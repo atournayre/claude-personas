@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "critical": {},
+  "optional": {
+    "php": {
+      "version": "*",
+      "description": "Pour la generation d'entites et collections Elegant Objects"
+    },
+    "twig": {
+      "version": "*",
+      "description": "Pour la generation de Twig Components"
+    }
+  },
+  "packages": {
+    "composer": {
+      "version": "*",
+      "description": "Gestionnaire de paquets PHP"
+    },
+    "symfony-cli": {
+      "version": "*",
+      "description": "CLI Symfony (optionnel, pour symfony:diagnose)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "symfony",
+  "version": "1.0.0",
+  "description": "Expert Symfony couvrant le framework core et l'ecosysteme officiel : Doctrine, Twig, Security, Messenger, Mailer, Form, Console et 150+ bundles",
+  "author": {
+    "name": "Aurelien Tournayre",
+    "email": "aurelien.tournayre@gmail.com"
+  },
+  "homepage": "https://github.com/atournayre/claude-personas",
+  "repository": "https://github.com/atournayre/claude-personas",
+  "license": "MIT",
+  "keywords": ["symfony", "php", "framework", "doctrine", "twig", "security", "messenger", "mailer", "form", "console", "bundles"],
+  "category": "framework"
+}
