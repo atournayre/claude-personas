@@ -23,14 +23,10 @@ license: MIT
 ## Configuration
 
 ```bash
-CORE_SCRIPTS="${CLAUDE_PLUGIN_ROOT}/../git/skills/git-pr-core/scripts"
-SCRIPTS_DIR="${CLAUDE_PLUGIN_ROOT}/../git/skills/git-cd-pr/scripts"
+CORE_SCRIPTS="${CLAUDE_PLUGIN_ROOT}/scripts"
 PR_TEMPLATE_PATH=".github/PULL_REQUEST_TEMPLATE/cd_pull_request_template.md"
 ENV_FILE_PATH=".env.claude"
 ```
-
-> Note : Les scripts partagés sont dans le plugin `git` (déprécié mais disponible).
-> Références : `git/skills/git-pr-core/scripts/` et `git/skills/git-cd-pr/scripts/`
 
 ## Workflow
 
@@ -75,11 +71,17 @@ TaskCreate #15: Nettoyage branche locale
 5. Lancer QA intelligente (`$CORE_SCRIPTS/smart_qa.sh`)
 6. Analyser changements git (`$CORE_SCRIPTS/analyze_changes.sh`)
 7. Confirmer branche de base (ou `AskUserQuestion`)
-8. Générer description PR intelligente + titre :
-   - Format titre obligatoire : `<type>(<scope>): <description> / Issue #<NUMERO>`
-   - Extraire le numéro d'issue du nom de branche (ex: `feat/123-feature` → `#123`)
-   - Si absent du nom de branche : `AskUserQuestion` pour obtenir le numéro
-9. Push et créer PR avec titre Conventional Commits suffixé ` / Issue #<NUMERO>` (`$SCRIPTS_DIR/create_pr.sh`)
+8. Générer titre PR via `$PR_SCRIPTS/generate_pr_title.sh` :
+   ```bash
+   TITLE=$($PR_SCRIPTS/generate_pr_title.sh)
+   EXIT_CODE=$?
+   ```
+   - Exit 0 → titre prêt (issue extraite du nom de branche)
+   - Exit 2 → `AskUserQuestion` "Cette PR est-elle liée à une issue ?" avec options :
+     - "Oui, numéro : ___" → relancer avec `--issue <N>`
+     - "Non" → relancer avec `--no-issue`
+   - Générer ensuite la description PR intelligente
+9. Push et créer PR (`$SCRIPTS_DIR/create_pr.sh`)
 10. **Copier labels depuis issue liée** (`$SCRIPTS_DIR/copy_issue_labels.sh`)
 11. **Appliquer labels CD** (`$SCRIPTS_DIR/apply_cd_labels.sh`)
 12. Assigner milestone (`$CORE_SCRIPTS/assign_milestone.py`)

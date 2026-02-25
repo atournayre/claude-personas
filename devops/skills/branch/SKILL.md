@@ -42,11 +42,8 @@ Créer une nouvelle branche Git de manière structurée avec support des issues 
 ## Configuration
 
 ```bash
-CORE_SCRIPTS="${CLAUDE_PLUGIN_ROOT}/../git/skills/branch-core/scripts"
+CORE_SCRIPTS="${CLAUDE_PLUGIN_ROOT}/scripts"
 ```
-
-> Note : Les scripts partagés sont dans le plugin `git` (déprécié mais disponible).
-> Référence : `git/skills/branch-core/scripts/`
 
 ## Variables
 - SOURCE_BRANCH: Branche source (optionnel - défaut: MAIN_BRANCH de .env.claude)

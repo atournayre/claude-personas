@@ -37,10 +37,9 @@ gh run list --branch "$(gh pr view $PR_NUMBER --json headRefName -q '.headRefNam
 Utiliser le script `parse_ci_logs.sh` :
 
 ```bash
-bash "${CLAUDE_PLUGIN_ROOT}/../git/skills/ci-autofix/scripts/parse_ci_logs.sh" "$PR_NUMBER"
+bash "${CLAUDE_PLUGIN_ROOT}/scripts/parse_ci_logs.sh" "$PR_NUMBER"
 ```
 
-> Note : Le script est dans le plugin `git` (déprécié mais disponible).
 
 ## 3. Catégoriser les erreurs
 

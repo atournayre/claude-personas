@@ -92,7 +92,5 @@ où `REPORT_PATH` = `.claude/reports`
 ## References
 
 Pour le template HTML et les règles de rédaction détaillées, consulter :
-- `git/skills/gen-release-notes/references/html-template.html`
-- `git/skills/gen-release-notes/references/writing-rules.md`
-
-> Note : Ces fichiers de référence sont dans le plugin `git` (déprécié mais disponible).
+- `devops/skills/release-notes/references/html-template.html`
+- `devops/skills/release-notes/references/writing-rules.md`

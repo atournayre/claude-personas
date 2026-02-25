@@ -24,6 +24,11 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
   - `twig:make-component` — Génération de Twig Components (standard et anonymous)
   - [twig/CHANGELOG.md](twig/CHANGELOG.md)
 
+### Plugins Updated
+- **devops v1.1.1** - Skills PR avec suffixe Issue #NUMERO
+  - Ajouter suffixe " / Issue #NUMERO" au titre des PR pour tracer la relation avec l'issue liée
+  - [devops/CHANGELOG.md](devops/CHANGELOG.md)
+
 ## [1.1.0] - 2025-01-01
 
 ### Plugins Updated

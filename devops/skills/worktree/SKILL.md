@@ -40,11 +40,8 @@ Créer et gérer des worktrees Git pour le développement parallèle.
 ## Configuration
 
 ```bash
-CORE_SCRIPTS="${CLAUDE_PLUGIN_ROOT}/../git/skills/branch-core/scripts"
+CORE_SCRIPTS="${CLAUDE_PLUGIN_ROOT}/scripts"
 ```
-
-> Note : Les scripts partagés sont dans le plugin `git` (déprécié mais disponible).
-> Référence : `git/skills/branch-core/scripts/`
 
 ## Actions disponibles
 

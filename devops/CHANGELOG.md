@@ -1,3 +1,9 @@
+## [1.1.1] - 2026-02-25
+
+### Changed
+- Skill `devops:pr` : ajouter suffixe " / Issue #NUMERO" au titre des PR
+- Skill `devops:cd-pr` : ajouter suffixe " / Issue #NUMERO" au titre des PR
+
 ## [1.1.0] - 2026-02-20
 
 ### Added
