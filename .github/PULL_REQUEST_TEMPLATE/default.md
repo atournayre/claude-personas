@@ -17,6 +17,7 @@
 - [ ] php
 - [ ] researcher
 - [ ] reviewer
+- [ ] symfony
 - [ ] tester
 - [ ] twig
 

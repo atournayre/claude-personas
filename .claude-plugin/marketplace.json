@@ -86,6 +86,13 @@
       "version": "1.1.0"
     },
     {
+      "name": "symfony",
+      "source": "./symfony",
+      "description": "Expert Symfony couvrant le framework core et l'ecosysteme officiel : Doctrine, Twig, Security, Messenger, Mailer, Form, Console et 150+ bundles",
+      "category": "framework",
+      "version": "1.0.0"
+    },
+    {
       "name": "twig",
       "source": "./twig",
       "description": "Skills Twig/Symfony UX : génération de Twig Components, templates et bonnes pratiques",

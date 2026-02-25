@@ -19,6 +19,18 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
   - `api-platform:make-test` — Génération de tests fonctionnels (ApiTestCase)
   - `api-platform:audit` — Audit de bonnes pratiques et sécurité
   - [api-platform/CHANGELOG.md](api-platform/CHANGELOG.md)
+- **symfony v1.0.0** - Expert Symfony couvrant le framework core et l'écosystème officiel (150+ bundles)
+  - `symfony:console` — Génération de commandes console
+  - `symfony:controller` — Génération de contrôleurs avec routing attributs
+  - `symfony:form` — Génération de FormType avec validation
+  - `symfony:event` — Génération d'Event + EventSubscriber/Listener
+  - `symfony:message` — Génération de Message Messenger + Handler
+  - `symfony:voter` — Génération de Voter de sécurité
+  - `symfony:mailer` — Génération de TemplatedEmail / Notification
+  - `symfony:config` — Assistant de configuration de bundles
+  - `symfony:diagnose` — Diagnostic d'applications Symfony
+  - Agents : `symfony-expert`, `security-auditor`
+  - [symfony/CHANGELOG.md](symfony/CHANGELOG.md)
 - **twig v1.0.0** - Persona Twig/Symfony UX avec skill make-component
   - `twig:make-component` — Génération de Twig Components (standard et anonymous)
   - [twig/CHANGELOG.md](twig/CHANGELOG.md)

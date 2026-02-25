@@ -4,7 +4,7 @@ title: Index des Skills
 
 # Index des Skills
 
-72 skills disponibles dans le marketplace.
+74 skills disponibles dans le marketplace.
 
 **Note** : Les skills sont invoquées via slash commands (ex: `/git:commit`, `/dev:feature`). ⚠️ = plugin déprécié.
 
@@ -80,5 +80,14 @@ title: Index des Skills
 | `/reviewer:elegant-objects` | [reviewer](/plugins/reviewer) | Vérifier la conformité du code PHP aux principes Elegant Objects de Yegor Bugayenko |
 | `/reviewer:phpstan` | [reviewer](/plugins/reviewer) | Résoudre automatiquement les erreurs PHPStan niveau 9 — boucle jusqu'à zéro erreur |
 | `/reviewer:review` | [reviewer](/plugins/reviewer) | Review qualité complète — PHPStan + Elegant Objects + code review + adversarial |
+| `/symfony:config` | [symfony](/plugins/symfony) | Assistant de configuration de bundles Symfony — aide a configurer n'importe quel bundle officiel |
+| `/symfony:console` | [symfony](/plugins/symfony) | Genere une commande console Symfony avec arguments, options et interaction |
+| `/symfony:controller` | [symfony](/plugins/symfony) | Genere un controleur Symfony avec routing attributs et bonnes pratiques |
+| `/symfony:diagnose` | [symfony](/plugins/symfony) | Diagnostique les problemes d'une application Symfony — erreurs, performances, configuration |
+| `/symfony:event` | [symfony](/plugins/symfony) | Genere un Event Symfony + EventSubscriber ou EventListener |
+| `/symfony:form` | [symfony](/plugins/symfony) | Genere un FormType Symfony avec contraintes de validation et options |
+| `/symfony:mailer` | [symfony](/plugins/symfony) | Genere un email Symfony (TemplatedEmail ou Notification) avec template Twig |
+| `/symfony:message` | [symfony](/plugins/symfony) | Genere un Message Symfony Messenger avec son Handler pour traitement asynchrone |
+| `/symfony:voter` | [symfony](/plugins/symfony) | Genere un Voter de securite Symfony pour le controle d'acces granulaire |
 | `/tester:ui-test` | [tester](/plugins/tester) | > |
 | `/twig:make-component` | [twig](/plugins/twig) | Génère un Twig Component Symfony UX (classe PHP + template Twig) |

@@ -61,6 +61,10 @@
         "link": "/plugins/php"
       },
       {
+        "text": "Symfony",
+        "link": "/plugins/symfony"
+      },
+      {
         "text": "Twig",
         "link": "/plugins/twig"
       }

@@ -16,6 +16,7 @@ Marketplace de **personas** (rôles spécialisés) pour [Claude Code](https://cl
 | **infra** | Infrastructure Claude Code | alias-add, bump, init, memory, skill-creator… | action, meta-agent |
 | **orchestrator** | Orchestration de features | feature, team, parallel, ralph, validate… | - |
 | **php** | Développement PHP/Symfony | make-entity, make-collection, make-contracts… | - |
+| **symfony** | Expert Symfony / écosystème officiel | console, controller, form, event, message, voter, mailer, config, diagnose | symfony-expert, security-auditor |
 | **researcher** | Recherche & analyse | analyze, search | explore-docs, gemini-researcher, websearch |
 | **reviewer** | Revue de code & qualité | challenge, elegant-objects, phpstan, review | 6 agents |
 | **tester** | Tests & TDD | ui-test | test-analyzer, tester |
