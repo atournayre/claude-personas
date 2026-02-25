@@ -53,6 +53,10 @@
     "collapsed": false,
     "items": [
       {
+        "text": "Api Platform",
+        "link": "/plugins/api-platform"
+      },
+      {
         "text": "Php",
         "link": "/plugins/php"
       },

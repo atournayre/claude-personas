@@ -7,6 +7,8 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+## [2026.02.25] - 2026-02-25
+
 ### Plugins Added
 - **api-platform v1.0.0** - Expert API Platform : resources, providers, processors, filtres, DTOs, tests et audit
   - `api-platform:make-resource` — Génération d'API Resource avec opérations et sérialisation

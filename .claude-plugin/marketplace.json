@@ -9,6 +9,13 @@
       "version": "1.1.0"
     },
     {
+      "name": "api-platform",
+      "source": "./api-platform",
+      "description": "Expert API Platform : resources, providers, processors, filtres, DTOs, tests et audit",
+      "category": "framework",
+      "version": "1.0.0"
+    },
+    {
       "name": "architect",
       "source": "./architect",
       "description": "Design architectural, planification d'implémentation et documentation des décisions techniques",

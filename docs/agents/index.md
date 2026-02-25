@@ -4,7 +4,7 @@ title: Index des Agents
 
 # Index des Agents
 
-27 agents disponibles dans le marketplace.
+29 agents disponibles dans le marketplace.
 
 **Note** : Les agents sont des sous-agents spécialisés qui peuvent être invoqués via le Task tool. ⚠️ = plugin déprécié.
 
@@ -14,6 +14,8 @@ title: Index des Agents
 | `analyst/designer` | [analyst](/plugins/analyst) | Conçoit le design DDD, les contrats, interfaces et flux de données. À utiliser dans le cadre d'une équipe d'agents pour la phase d'analyse. | Read, Grep, Glob, Bash |
 | `analyst/explore-codebase` | [analyst](/plugins/analyst) | Exploration spécialisée du codebase pour identifier les patterns et fichiers pertinents à une feature | Read, Grep, Glob |
 | `analyst/gemini-analyzer` | [analyst](/plugins/analyst) | Délègue l'analyse de contextes ultra-longs (codebases, docs) à Gemini Pro (1M tokens). À utiliser quand le contexte dépasse les capacités de Claude ou pour analyser une codebase entière. | Bash, Read, Glob, Grep |
+| `api-platform/api-expert` | [api-platform](/plugins/api-platform) | Expert API Platform : analyse l'architecture API, propose des solutions techniques et conçoit les resources, providers et processors. À utiliser dans le cadre d'une équipe d'agents pour la phase d'analyse. | Read, Grep, Glob, Bash |
+| `api-platform/reviewer` | [api-platform](/plugins/api-platform) | Revue de code spécialisée API Platform : vérifie sécurité, sérialisation, performances et bonnes pratiques. À utiliser dans le cadre d'une équipe d'agents ou seul pour une revue. | Read, Grep, Glob |
 | `architect/architect` | [architect](/plugins/architect) | Analyse l'architecture, les patterns et la structure du codebase pour proposer une conception technique solide. À utiliser dans le cadre d'une équipe d'agents pour la phase d'analyse. | Read, Grep, Glob, Bash |
 | `architect/challenger` | [architect](/plugins/architect) | Avocat du diable : challenge les propositions, identifie les edge cases, failles de sécurité et alternatives. À utiliser dans le cadre d'une équipe d'agents pour la phase de challenge. | Read, Grep, Glob, Bash |
 | `architect/deep-think` | [architect](/plugins/architect) | Délègue les problèmes complexes (math, logique, architecture) à Gemini Deep Think. À utiliser pour réflexion approfondie nécessitant exploration multi-hypothèses. | Bash |
