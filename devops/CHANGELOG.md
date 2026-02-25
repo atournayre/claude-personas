@@ -1,3 +1,13 @@
+## [1.1.2] - 2026-02-25
+
+### Added
+- Scripts centralisés dans `devops/scripts/` (scripts copiés depuis claude-plugin)
+- Script `generate_pr_title.sh` : génération mutualisée des titres PR avec emoji et lien issue optionnel
+- Fichiers de référence pour `devops:release-notes` (html-template.html, writing-rules.md)
+
+### Fixed
+- Correction de toutes les références `CORE_SCRIPTS` dans les SKILL.md (branch, worktree, pr, cd-pr, ci-autofix, release-notes)
+
 ## [1.1.1] - 2026-02-25
 
 ### Changed

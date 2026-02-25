@@ -25,6 +25,11 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
   - [twig/CHANGELOG.md](twig/CHANGELOG.md)
 
 ### Plugins Updated
+- **devops v1.1.2** - Centralisation scripts et correction des références
+  - Scripts centralisés dans `devops/scripts/` (copiés depuis claude-plugin)
+  - Script `generate_pr_title.sh` pour mutualiser la génération de titres PR
+  - Correction de toutes les références `CORE_SCRIPTS` dans les SKILL.md
+  - [devops/CHANGELOG.md](devops/CHANGELOG.md)
 - **devops v1.1.1** - Skills PR avec suffixe Issue #NUMERO
   - Ajouter suffixe " / Issue #NUMERO" au titre des PR pour tracer la relation avec l'issue liée
   - [devops/CHANGELOG.md](devops/CHANGELOG.md)
