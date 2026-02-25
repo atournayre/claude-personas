@@ -71,8 +71,11 @@ TaskCreate #13: Nettoyage branche locale
 5. Lancer QA intelligente (`$CORE_SCRIPTS/smart_qa.sh`)
 6. Analyser changements git (`$CORE_SCRIPTS/analyze_changes.sh`)
 7. Confirmer branche de base (ou `AskUserQuestion`)
-8. Générer description PR intelligente
-9. Push et créer PR avec titre Conventional Commits (`$CORE_SCRIPTS/create_pr.sh`)
+8. Générer description PR intelligente + titre :
+   - Format titre obligatoire : `<type>(<scope>): <description> / Issue #<NUMERO>`
+   - Extraire le numéro d'issue du nom de branche (ex: `feat/123-feature` → `#123`)
+   - Si absent du nom de branche : `AskUserQuestion` pour obtenir le numéro
+9. Push et créer PR avec titre Conventional Commits suffixé ` / Issue #<NUMERO>` (`$CORE_SCRIPTS/create_pr.sh`)
 10. Assigner milestone (`$CORE_SCRIPTS/assign_milestone.py`)
 11. Assigner projet GitHub (`$CORE_SCRIPTS/assign_project.py`)
 12. Code review automatique (si plugin review installé)
