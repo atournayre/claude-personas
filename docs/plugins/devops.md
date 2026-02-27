@@ -1,10 +1,10 @@
 ---
 title: "devops"
 description: "Opérations DevOps Git  - branches, commits, worktrees, PR, CI, releases"
-version: "1.1.2"
+version: "1.1.3"
 ---
 
-# devops <Badge type="info" text="v1.1.2" />
+# devops <Badge type="info" text="v1.1.3" />
 
 
 Opérations DevOps Git : branches, commits, worktrees, PR, CI, releases.

@@ -1,3 +1,8 @@
+## [1.1.3] - 2026-02-27
+
+### Fixed
+- Créer les PR en mode Draft pour limiter l'exécution de la CI au démarrage
+
 ## [1.1.2] - 2026-02-25
 
 ### Added

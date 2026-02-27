@@ -36,6 +36,9 @@ Versioning via [Semantic Versioning](https://semver.org/lang/fr/).
   - [twig/CHANGELOG.md](twig/CHANGELOG.md)
 
 ### Plugins Updated
+- **devops v1.1.3** - Créer les PR en mode Draft
+  - PR créées en mode Draft pour limiter l'exécution de la CI au démarrage
+  - [devops/CHANGELOG.md](devops/CHANGELOG.md)
 - **devops v1.1.2** - Centralisation scripts et correction des références
   - Scripts centralisés dans `devops/scripts/` (copiés depuis claude-plugin)
   - Script `generate_pr_title.sh` pour mutualiser la génération de titres PR

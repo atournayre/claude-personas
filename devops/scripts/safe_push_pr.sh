@@ -45,6 +45,7 @@ fi
 # Création PR
 echo "📝 Création de la Pull Request..."
 PR_URL=$(gh pr create \
+    --draft \
     --base "$BRANCH_BASE" \
     --title "$PR_TITLE" \
     --body-file "$PR_BODY_FILE" \
