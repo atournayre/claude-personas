@@ -1,4 +1,9 @@
 {
+  "name": "atournayre-claude-personas",
+  "owner": {
+    "name": "Aurélien Tournayre",
+    "email": "aurelien.tournayre@gmail.com"
+  },
   "version": "1.0",
   "plugins": [
     {
