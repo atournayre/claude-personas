@@ -9,6 +9,12 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["orchestrator", "workflow", "feature", "parallel", "agents", "automation"],
-  "category": "development"
+  "keywords": [
+    "orchestrator",
+    "workflow",
+    "feature",
+    "parallel",
+    "agents",
+    "automation"
+  ]
 }

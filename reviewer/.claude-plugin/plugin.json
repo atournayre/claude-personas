@@ -9,6 +9,12 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["review", "code-quality", "phpstan", "elegant-objects", "php", "symfony"],
-  "category": "development"
+  "keywords": [
+    "review",
+    "code-quality",
+    "phpstan",
+    "elegant-objects",
+    "php",
+    "symfony"
+  ]
 }

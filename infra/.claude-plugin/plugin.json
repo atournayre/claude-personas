@@ -9,6 +9,14 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["infra", "memory", "skills", "agents", "alias", "bump", "marketplace", "grammar"],
-  "category": "tools"
+  "keywords": [
+    "infra",
+    "memory",
+    "skills",
+    "agents",
+    "alias",
+    "bump",
+    "marketplace",
+    "grammar"
+  ]
 }

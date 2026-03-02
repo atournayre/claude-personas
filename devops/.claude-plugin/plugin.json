@@ -9,6 +9,14 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["git", "devops", "branch", "commit", "pr", "ci", "release", "worktree"],
-  "category": "git-workflow"
+  "keywords": [
+    "git",
+    "devops",
+    "branch",
+    "commit",
+    "pr",
+    "ci",
+    "release",
+    "worktree"
+  ]
 }

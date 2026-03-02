@@ -9,6 +9,13 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["test", "ui", "phpunit", "tdd", "chrome", "coverage", "qa"],
-  "category": "development"
+  "keywords": [
+    "test",
+    "ui",
+    "phpunit",
+    "tdd",
+    "chrome",
+    "coverage",
+    "qa"
+  ]
 }

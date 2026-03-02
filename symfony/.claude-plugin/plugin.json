@@ -9,6 +9,17 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["symfony", "php", "framework", "doctrine", "twig", "security", "messenger", "mailer", "form", "console", "bundles"],
-  "category": "framework"
+  "keywords": [
+    "symfony",
+    "php",
+    "framework",
+    "doctrine",
+    "twig",
+    "security",
+    "messenger",
+    "mailer",
+    "form",
+    "console",
+    "bundles"
+  ]
 }

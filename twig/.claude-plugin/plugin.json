@@ -9,6 +9,12 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["twig", "symfony", "component", "ux", "template", "frontend"],
-  "category": "framework"
+  "keywords": [
+    "twig",
+    "symfony",
+    "component",
+    "ux",
+    "template",
+    "frontend"
+  ]
 }

@@ -9,6 +9,11 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["analysis", "exploration", "discovery", "clarification", "impact"],
-  "category": "development"
+  "keywords": [
+    "analysis",
+    "exploration",
+    "discovery",
+    "clarification",
+    "impact"
+  ]
 }

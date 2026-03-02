@@ -9,6 +9,13 @@
   "homepage": "https://github.com/atournayre/claude-personas",
   "repository": "https://github.com/atournayre/claude-personas",
   "license": "MIT",
-  "keywords": ["api-platform", "symfony", "rest", "graphql", "openapi", "json-ld", "hydra"],
-  "category": "framework"
+  "keywords": [
+    "api-platform",
+    "symfony",
+    "rest",
+    "graphql",
+    "openapi",
+    "json-ld",
+    "hydra"
+  ]
 }
